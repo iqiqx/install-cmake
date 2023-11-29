@@ -17,3 +17,10 @@ source ~/.bashrc
 
 ## 更新版本
 重复1 2 3
+
+# centos7-install-latest-gcc
+1.sudo yum install -y centos-release-scl 
+2.sudo yum install -y devtoolset-9-gcc devtoolset-9-gcc-c++
+
+安装了之后,并没有替换旧的,所以这里选择连接到最新的gcc/g++
+3.echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile source /etc/profile
