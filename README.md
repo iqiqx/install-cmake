@@ -23,4 +23,5 @@ source ~/.bashrc
 2.sudo yum install -y devtoolset-9-gcc devtoolset-9-gcc-c++
 
 安装了之后,并没有替换旧的,所以这里选择连接到最新的gcc/g++
-3.echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile source /etc/profile
+3.echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile  
+source /etc/profile
