@@ -28,3 +28,14 @@ path echo 'export PATH="/usr/local/cmake/bin:$PATH"' >> ~/.bashrc
 3.echo "source /opt/rh/devtoolset-9/enable" >> /etc/profile  
 
 4.source /etc/profile
+
+# ubuntu-install-latest-gcc
+1.sudo apt-get update  
+
+2.sudo apt-get install gcc  
+
+3.sudo apt-get install g++  
+
+4.sudo apt-get install build-essential  
+
+5.g++ --version
