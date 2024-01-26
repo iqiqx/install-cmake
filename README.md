@@ -39,3 +39,11 @@ path echo 'export PATH="/usr/local/cmake/bin:$PATH"' >> ~/.bashrc
 4.sudo apt-get install build-essential  
 
 5.g++ --version
+
+
+# git submodule
+引用:https://github.com/viaduck/openssl-cmake  
+
+1.git submodule add <URL> external/openssl-cmake  
+
+2.git submodule update --init  
