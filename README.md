@@ -44,6 +44,6 @@ path echo 'export PATH="/usr/local/cmake/bin:$PATH"' >> ~/.bashrc
 # git submodule
 引用:https://github.com/viaduck/openssl-cmake  
 
-1.git submodule add <URL> external/openssl-cmake  
+1.git submodule add git地址 存放的目录  
 
 2.git submodule update --init  
